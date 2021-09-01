@@ -27,12 +27,12 @@ export class RightBarCreatorsComponent implements OnInit {
   static RightBarTabKey = "RightBarTab";
 
   static GAINERS: RightBarTabOption = {
-    name: "Top Gainers",
+    name: "Top Daily Gainers",
     width: 175,
     poweredBy: { name: "BitClout Pulse", link: "https://bitcloutpulse.com" },
   };
   static DIAMONDS: RightBarTabOption = {
-    name: "Top Diamonded Creators",
+    name: "Top Daily Diamonded Creators",
     width: 275,
     poweredBy: { name: "BitClout Pulse", link: "https://bitcloutpulse.com" },
   };
@@ -43,7 +43,7 @@ export class RightBarCreatorsComponent implements OnInit {
   };
 
   static ALL_TIME: RightBarTabOption = {
-    name: "Top-Valued Creator Coins",
+    name: "Top Creators All Time",
     width: 210,
     poweredBy: null,
   };
