@@ -26,7 +26,7 @@ html {
 }
 
 html, body {
-  font-family: 'Roboto Mono';
+  font-family: 'Lato';
   min-height: 100%; // allows for scrolling
 }
 
@@ -46,7 +46,7 @@ h1 {
 h2,h3,h4,h5,h6,p {
   margin: 0;
   color: var(--text);
-  font-family: 'Roboto Mono';
+  font-family: 'Lato';
   font-weight: normal;
 }
 
@@ -140,6 +140,7 @@ $staking-grey: #F0F0F0;
 $light-grey-for-divider: #F8F8F8;
 $light-grey-for-divider-2: #FAFAFA;
 $buy-button-blue: #0058F7;
+$buy-button-green: #00FF00;
 // Font colors.
 $light-font-color: #777777;
 $normal-font-color: #222222;
@@ -188,7 +189,7 @@ $green-font-color: #19B028;
 
 .text-grey-loading { color: var(--loading) }
 // Set toast-info to use system blue
-.toast-info { background-color: $buy-button-blue}
+.toast-info { background-color: $buy-button-green}
 
 // font weights
 // font-weight-light: 300
@@ -250,7 +251,8 @@ $green-font-color: #19B028;
 // Custom border classes.
 .border-color-grey { border-color: var(--border) !important; }
 .border-color-blue { border-color: $buy-button-blue; }
-.tab-underline-active { border-bottom: solid $buy-button-blue 3px; }
+.border-color-green { border-color: $buy-button-green; }
+.tab-underline-active { border-bottom: solid $buy-button-green 3px; }
 .tab-underline-inactive { border-bottom: solid rgba(0,0,0,0) 3px; }
 
 .background-color-grey { background-color: var(--border); } // mocks call this G4
@@ -555,7 +557,7 @@ $green-font-color: #19B028;
   padding: 1px 7px;
   border-radius: 100%;
   color: white;
-  background-color: $buy-button-blue;
+  background-color: $buy-button-green;
 }
 
 // flex -> width -> fixed -> inner
@@ -785,7 +787,7 @@ $green-font-color: #19B028;
 }
 
 .holdings__copy:active {
-  color: $buy-button-blue;
+  color: $buy-button-green;
 }
 
 .update-profile__pub-key {
@@ -800,7 +802,7 @@ $green-font-color: #19B028;
 }
 
 .update-profile__copy:active {
-  color: $buy-button-blue;
+  color: $buy-button-green;
 }
 
 .sign-up__grey-background {
@@ -1035,7 +1037,7 @@ $green-font-color: #19B028;
 }
 
 .feed-post__blue-border {
-  border-left: 5px solid $buy-button-blue;
+  border-left: 5px solid $buy-button-green;
 }
 
 .feed-post__image-delete {
@@ -1137,7 +1139,7 @@ $green-font-color: #19B028;
 .left-bar__dot-active {
   font-size: 50px;
   line-height: 18px;
-  color: $buy-button-blue !important;
+  color: $buy-button-green !important;
 }
 
 .left-bar__dot-unread {
@@ -1245,15 +1247,15 @@ $green-font-color: #19B028;
   display: flex;
   align-items: center;
   justify-content: middle;
-  border: solid 1px $buy-button-blue;
-  color: $buy-button-blue;
+  border: solid 1px $buy-button-green;
+  color: $buy-button-green;
   cursor: pointer;
   border-radius: 3px;
   padding: 5px;
 }
 
 .buy-bitclout__copy-button:hover {
-  background-color: $buy-button-blue;
+  background-color: $buy-button-green;
   color: white;
 }
 
@@ -1585,7 +1587,7 @@ $green-font-color: #19B028;
   font-size: 14px;
   margin-bottom: 30px;
   padding: 0 20px;
-  font-family: Roboto;
+  font-family: Lato;
 }
 
 .landing__example {
